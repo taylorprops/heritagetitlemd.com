@@ -1,0 +1,501 @@
+@import 'carousel.scss';
+
+@mixin border-radius($r) {
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    border-radius: $r;
+}
+@mixin animation-delay($d) {
+    -webkit-animation-delay: $d;
+    -moz-animation-delay: $d;
+    -o-animation-delay: $d;
+}
+@mixin animation-duration($d) {
+    -webkit-animation-duration: $d;
+    -moz-animation-duration: $d;
+    -o-animation-duration: $d;
+}
+@mixin translateX($d) {
+    transform: translateX($d);
+    -webkit-transform: translateX($d);
+    -moz-transform: translateX($d);
+    -ms-transform: translateX($d);
+    -o-transform: translateX($d);
+}
+@mixin gradient($s,$e) {
+    background-image: -webkit-linear-gradient(50deg,$s,$e);
+    background-image: linear-gradient(40deg,$s,$e);
+}
+
+$color1: rgba(33, 90, 150, 1);
+$color1-light: rgba(134, 187, 216, 1);
+$color4: rgba(98, 23, 8, 1);
+$color3: rgba(255, 140, 66, 1);
+$color2: rgba(252, 98, 98, 1);
+$color5: rgba(255, 255, 0, 1);
+
+
+
+
+
+$modal-success: #57876f;
+$modal-success-hover: #63a383;
+
+$error-red: #F44336;
+
+.blue-text { color: $color1 !important; }
+.blue-gradient {
+    @include gradient($color1-light,$color1);
+}
+
+
+/* Page Animation */
+html {
+    animation: fadeSiteIn 1.0s ease forwards;
+    @include gradient($color2, $color3);
+}
+
+html.fadeSiteOut {
+  animation:  fadeSiteOut 1.0s ease forwards;
+}
+@keyframes fadeSiteIn {
+    from   { opacity: 0; @include gradient($color2, $color3); }
+    to    { opacity: 1; backgound: #fff; }
+}
+@keyframes fadeSiteOut {
+    from   { opacity: 1; backgound: #fff; }
+    to     { opacity: 0; @include gradient($color2, $color3);  }
+}
+
+main {
+    margin: 0px !important;
+}
+.fixed-sn main, .hidden-sn main {
+    padding-top: 3.5rem;
+}
+.container-full {
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 575px) {
+    .container-full {
+        width: 100%;
+        overflow: hidden;
+    }
+    .index-why-use col-lg-7 {
+        width: 96%;
+        margin: 0 2%;
+    }
+}
+
+.page-head h2 {
+    margin: 20px auto;
+    color: $color1;
+    font-size: 2.5rem;
+}
+.page-head h3 {
+    margin-bottom: 30px;
+    color: $color3;
+    font-size: 1.5rem;
+}
+.page-head h5 {
+    margin-bottom: 30px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media (max-width: 575px) {
+    .our-fees .page-head {
+        text-align: center;
+    }
+
+    .page-head h2 {
+        margin: 5px auto 15px auto;
+        font-size: 1.8rem;
+    }
+    .page-head h3 {
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+    .page-head h5 {
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+}
+
+.disclaimer {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #8b8b8b;
+}
+ .small-asterisk {
+     font-size: 14px;
+     vertical-align: top;
+ }
+/* Button */
+
+.btn-default {
+    background: $color2;
+}
+.btn-default:hover {
+    background-color: $color3 !important;
+}
+.btn-default:focus, .btn-default:active, .btn-default.active {
+    @include gradient($color2,$color3);
+}
+.btn-default.dropdown-toggle {
+    background: $color2;
+}
+.btn-default.dropdown-toggle:hover, .btn-default.dropdown-toggle:focus {
+    background-color: $color3 !important;
+}
+/* End Button */
+/* Modals */
+.modal-dialog.modal-notify.modal-success .modal-header {
+    background-color: $modal-success !important;
+}
+.modal-dialog.modal-notify.modal-success .fa  {
+    color: $modal-success;
+}
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal {
+    border: 2px solid $modal-success;
+    color: $modal-success !important;
+    background-color: transparent;
+}
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:hover, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:focus, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:active, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:active:focus, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal.active {
+    background-color: transparent;
+    color: $modal-success-hover;
+    border-color: $modal-success-hover; }
+/* End Modals */
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .fixed-sn main, .hidden-sn main {
+        padding-top: 2.5rem;
+    }
+}
+@media (max-width: 575px) {
+    .fixed-sn main, .hidden-sn main {
+        padding-top: 2.5rem;
+    }
+}
+
+/*********************** Nav ***********************/
+.navbar {
+    /*background-image: linear-gradient(to right, $color1-light, $color1 50%);*/
+    background: $color1;
+}
+$side-nav-mask: rgba($color1, 0.8);
+.side-nav .logo-wrapper img {
+    padding: 0px !important;
+    margin: auto !important;
+    padding-top: 15px !important;
+}
+/* side nav mask */
+.side-nav .sidenav-bg.mask-strong::after, .side-nav .sidenav-bg::after {
+    background: $side-nav-mask;
+}
+.side-nav ul {
+    padding-left: 0px;
+}
+.navbar-link {
+    color: #fff;
+}
+$nav-link-hover-color:  #fff;
+.side-nav ul li ul li {
+    border-bottom: 1px solid transparent;
+}
+.side-nav ul li ul li:hover {
+    background: $color1;
+    border-bottom: 1px dotted $color1-light;
+}
+.side-nav .collapsible > li a.collapsible-header.active {
+    background-color: $color1;
+}
+.side-nav .collapsible > li a.collapsible-header:hover {
+    background-color: $color1;
+}
+.side-nav .collapsible li a:hover {
+    background-color: $color1;
+}
+.navbar-link:hover {
+    color: $nav-link-hover-color;
+}
+.sn-bg-4 {
+    background-image: url('/img/custom/nav/side-banner-web.jpg');
+}
+.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+    height: 110px;
+}
+.logo-wrapper {
+    border-bottom: 1px dotted #fff;
+}
+.side-nav .about, .side-nav .nav-social {
+    border-top: 1px dotted #fff;
+}
+.collapsible-body {
+    background: rgba(0,0,0,.3);
+}
+.side-nav .collapsible .collapsible-body li{
+    border-bottom: none;
+}
+.side-nav .collapsible .collapsible-body a {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 60px;
+    font-size: .9rem;
+}
+.side-nav .collapsible .collapsible-body a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+/*********************** End Nav ***********************/
+
+/*********************** Footer ***********************/
+
+.page-footer {
+    background-color: $color1;
+}
+
+/*********************** End Footer ***********************/
+
+/*********************** Page Intro ***********************/
+.page-intro-small {
+    height: 300px;
+    width: 100%;
+    /*margin-bottom: 50px;*/
+}
+.page-intro-img {
+    width: 100%;
+    height: 300px;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+.carousel-caption {
+    bottom: 2rem;
+}
+.page-intro-small h1 {
+    color: #fff;
+    font-size: 3.5rem;
+}
+.page-intro-small p {
+    display: inline-block;
+    background: rgba($color1, .6);
+    padding: 10px;
+    color: $color3;
+    font-size: 2.2rem;
+    @include border-radius(5);
+}
+
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .page-intro-small h1 {
+        font-size: 2.8rem;
+    }
+    .page-intro-small p {
+        font-size: 1.7rem;
+    }
+    .carousel-caption {
+        bottom: 1rem;
+    }
+}
+@media (max-width: 575px) {
+    .page-intro-small {
+        height: 200px;
+        margin-bottom: 0px;
+    }
+    .page-intro-img {
+        height: 200px;
+        width: auto;
+    }
+    .page-intro-small h1 {
+        font-size: 2.5rem;
+    }
+    .page-intro-small p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption {
+        bottom: 0rem;
+    }
+    .page-intro-small .img-fluid {
+        max-width: 10000px;
+    }
+}
+
+/*********************** End Page Intro ***********************/
+
+/*********************** Index ***********************/
+
+
+.mobile-logo-div {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    @include translateX(-50%);
+    z-index: 5;
+}
+#index_carousel .animated {
+
+    @include animation-delay(.2s);
+    @include animation-duration(1.5s);
+
+}
+.index-cards .animated {
+
+    @include animation-delay(.5s);
+    @include animation-duration(2s);
+
+}
+.page-index .h2-responsive {
+    font-size: 150%;
+}
+.page-index .card .card-text {
+    font-size: 1rem;
+    color: #534d4d;
+}
+
+.index-card1 {
+    background: $color2;
+}
+.index-card2 {
+    @include gradient($color2,$color3);
+}
+.index-card3 {
+    background: $color3;
+}
+.index-why-use {
+    border-top: 1px solid $color3;
+    border-bottom: 1px solid $color3;
+    @include gradient(#fff, $color3);
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .mobile-logo-div {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .mobile-logo-div {
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .mobile-logo-div {
+        display: block;
+    }
+}
+/*********************** End Index ***********************/
+
+/*********************** Contact Us ***********************/
+.google-map iframe {
+  height: 500px;
+  width: 100%;
+}
+ .contact-locations {
+      margin-bottom: 35px;
+}
+.phone-link {
+    color: #212529;
+}
+.form-error {
+    color: $error-red !important;
+}
+.form-error-input {
+    border-bottom: 1px solid $error-red !important;
+    box-shadow: 0 1px 0 0 $error-red !important;
+}
+.agent-contact-modal .modal-header {
+    background: $color1;
+}
+/*********************** End Contact Us ***********************/
+
+/*********************** Our Fees ***********************/
+.our-fees-card-1 {
+    background: $color2;
+}
+.our-fees-card-2 {
+    background: $color3;
+}
+.our-fees-cards .animated {
+
+    @include animation-delay(.5s);
+    @include animation-duration(1.5s);
+
+}
+
+/*********************** End Our Fees ***********************/
+
+/*********************** why Use Us ***********************/
+.why-use .animated {
+
+    @include animation-delay(.5s);
+    @include animation-duration(2s);
+
+}
+/*********************** End Why Use Us ***********************/
+/*********************** Our Team ***********************/
+@media (max-width: 575px) {
+    .email_title {
+        padding: 5px;
+    }
+}
+/*********************** End Our Team ***********************/
+/*********************** Locations ***********************/
+.locations-map {
+    margin-top: 40px;
+}
+.locations-page-intro {
+    display: none;
+}
+.google-view {
+    height: 400px;
+}
+.google-maps-holder {
+    height:400px; width:100%; display:inline-block; overflow:hidden; background: #A3CCFF;
+}
+.custom-google-map {
+    position:relative; top:-50px; border:none;
+}
+.google-view-small {
+    height: 200px;
+}
+.locations-card {
+    background-color: $color2 !important;
+    color: #fff !important;
+}
+@media (max-width: 575px) {
+    .locations-map {
+        display: none;
+    }
+    .locations-page-intro {
+        display: block;
+    }
+
+}
+/*********************** End Locations ***********************/
+
+
+/*
+@media (max-width: 1199px) and (min-width: 992px) {
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+
+}
+@media (max-width: 767px) and (min-width: 576px) {
+
+}
+@media (max-width: 575px) {
+
+}
+
+
+
+*/

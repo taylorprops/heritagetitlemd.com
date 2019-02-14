@@ -1,0 +1,479 @@
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+.carousel h1 {
+  font-size: 3.2rem; }
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 36rem;
+  background-color: #777; }
+
+.index-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 36rem; }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    line-height: 1.8; } }
+@media (max-width: 767px) and (min-width: 576px) {
+  .carousel h1 {
+    font-size: 2rem; } }
+@media (max-width: 575px) {
+  .carousel h1 {
+    font-size: 1.4rem; }
+
+  .carousel-item {
+    height: 75VH; }
+
+  .index-slide {
+    height: 75VH; } }
+.blue-text {
+  color: #215a96 !important; }
+
+.blue-gradient {
+  background-image: -webkit-linear-gradient(50deg, #86bbd8, #215a96);
+  background-image: linear-gradient(40deg, #86bbd8, #215a96); }
+
+/* Page Animation */
+html {
+  animation: fadeSiteIn 1.0s ease forwards;
+  background-image: -webkit-linear-gradient(50deg, #fc6262, #ff8c42);
+  background-image: linear-gradient(40deg, #fc6262, #ff8c42); }
+
+html.fadeSiteOut {
+  animation: fadeSiteOut 1.0s ease forwards; }
+
+@keyframes fadeSiteIn {
+  from {
+    opacity: 0;
+    background-image: -webkit-linear-gradient(50deg, #fc6262, #ff8c42);
+    background-image: linear-gradient(40deg, #fc6262, #ff8c42); }
+  to {
+    opacity: 1;
+    backgound: #fff; } }
+@keyframes fadeSiteOut {
+  from {
+    opacity: 1;
+    backgound: #fff; }
+  to {
+    opacity: 0;
+    background-image: -webkit-linear-gradient(50deg, #fc6262, #ff8c42);
+    background-image: linear-gradient(40deg, #fc6262, #ff8c42); } }
+main {
+  margin: 0px !important; }
+
+.fixed-sn main, .hidden-sn main {
+  padding-top: 3.5rem; }
+
+.container-full {
+  width: 100%;
+  overflow: hidden; }
+
+@media (max-width: 575px) {
+  .container-full {
+    width: 100%;
+    overflow: hidden; }
+
+  .index-why-use col-lg-7 {
+    width: 96%;
+    margin: 0 2%; } }
+.page-head h2 {
+  margin: 20px auto;
+  color: #215a96;
+  font-size: 2.5rem; }
+
+.page-head h3 {
+  margin-bottom: 30px;
+  color: #ff8c42;
+  font-size: 1.5rem; }
+
+.page-head h5 {
+  margin-bottom: 30px; }
+
+.w-100 {
+  width: 100%; }
+
+@media (max-width: 575px) {
+  .our-fees .page-head {
+    text-align: center; }
+
+  .page-head h2 {
+    margin: 5px auto 15px auto;
+    font-size: 1.8rem; }
+
+  .page-head h3 {
+    margin-bottom: 30px;
+    font-size: 1.3rem; }
+
+  .page-head h5 {
+    margin-bottom: 30px;
+    font-size: 1rem; } }
+.disclaimer {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #8b8b8b; }
+
+.small-asterisk {
+  font-size: 14px;
+  vertical-align: top; }
+
+/* Button */
+.btn-default {
+  background: #fc6262; }
+
+.btn-default:hover {
+  background-color: #ff8c42 !important; }
+
+.btn-default:focus, .btn-default:active, .btn-default.active {
+  background-image: -webkit-linear-gradient(50deg, #fc6262, #ff8c42);
+  background-image: linear-gradient(40deg, #fc6262, #ff8c42); }
+
+.btn-default.dropdown-toggle {
+  background: #fc6262; }
+
+.btn-default.dropdown-toggle:hover, .btn-default.dropdown-toggle:focus {
+  background-color: #ff8c42 !important; }
+
+/* End Button */
+/* Modals */
+.modal-dialog.modal-notify.modal-success .modal-header {
+  background-color: #57876f !important; }
+
+.modal-dialog.modal-notify.modal-success .fa {
+  color: #57876f; }
+
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal {
+  border: 2px solid #57876f;
+  color: #57876f !important;
+  background-color: transparent; }
+
+.modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:hover, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:focus, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:active, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal:active:focus, .modal-dialog.modal-notify.modal-success .btn-outline-secondary-modal.active {
+  background-color: transparent;
+  color: #63a383;
+  border-color: #63a383; }
+
+/* End Modals */
+@media (max-width: 767px) and (min-width: 576px) {
+  .fixed-sn main, .hidden-sn main {
+    padding-top: 2.5rem; } }
+@media (max-width: 575px) {
+  .fixed-sn main, .hidden-sn main {
+    padding-top: 2.5rem; } }
+/*********************** Nav ***********************/
+.navbar {
+  /*background-image: linear-gradient(to right, $color1-light, $color1 50%);*/
+  background: #215a96; }
+
+.side-nav .logo-wrapper img {
+  padding: 0px !important;
+  margin: auto !important;
+  padding-top: 15px !important; }
+
+/* side nav mask */
+.side-nav .sidenav-bg.mask-strong::after, .side-nav .sidenav-bg::after {
+  background: rgba(33, 90, 150, 0.8); }
+
+.side-nav ul {
+  padding-left: 0px; }
+
+.navbar-link {
+  color: #fff; }
+
+.side-nav ul li ul li {
+  border-bottom: 1px solid transparent; }
+
+.side-nav ul li ul li:hover {
+  background: #215a96;
+  border-bottom: 1px dotted #86bbd8; }
+
+.side-nav .collapsible > li a.collapsible-header.active {
+  background-color: #215a96; }
+
+.side-nav .collapsible > li a.collapsible-header:hover {
+  background-color: #215a96; }
+
+.side-nav .collapsible li a:hover {
+  background-color: #215a96; }
+
+.navbar-link:hover {
+  color: #fff; }
+
+.sn-bg-4 {
+  background-image: url("/img/custom/nav/side-banner-web.jpg"); }
+
+.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+  height: 110px; }
+
+.logo-wrapper {
+  border-bottom: 1px dotted #fff; }
+
+.side-nav .about, .side-nav .nav-social {
+  border-top: 1px dotted #fff; }
+
+.collapsible-body {
+  background: rgba(0, 0, 0, 0.3); }
+
+.side-nav .collapsible .collapsible-body li {
+  border-bottom: none; }
+
+.side-nav .collapsible .collapsible-body a {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 60px;
+  font-size: .9rem; }
+
+.side-nav .collapsible .collapsible-body a:hover {
+  background-color: rgba(255, 255, 255, 0.15); }
+
+/*********************** End Nav ***********************/
+/*********************** Footer ***********************/
+.page-footer {
+  background-color: #215a96; }
+
+/*********************** End Footer ***********************/
+/*********************** Page Intro ***********************/
+.page-intro-small {
+  height: 300px;
+  width: 100%;
+  /*margin-bottom: 50px;*/ }
+
+.page-intro-img {
+  width: 100%;
+  height: 300px;
+  -webkit-filter: blur(2px);
+  filter: blur(2px); }
+
+.carousel-caption {
+  bottom: 2rem; }
+
+.page-intro-small h1 {
+  color: #fff;
+  font-size: 3.5rem; }
+
+.page-intro-small p {
+  display: inline-block;
+  background: rgba(33, 90, 150, 0.6);
+  padding: 10px;
+  color: #ff8c42;
+  font-size: 2.2rem;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5; }
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .page-intro-small h1 {
+    font-size: 2.8rem; }
+
+  .page-intro-small p {
+    font-size: 1.7rem; }
+
+  .carousel-caption {
+    bottom: 1rem; } }
+@media (max-width: 575px) {
+  .page-intro-small {
+    height: 200px;
+    margin-bottom: 0px; }
+
+  .page-intro-img {
+    height: 200px;
+    width: auto; }
+
+  .page-intro-small h1 {
+    font-size: 2.5rem; }
+
+  .page-intro-small p {
+    font-size: 1.3rem; }
+
+  .carousel-caption {
+    bottom: 0rem; }
+
+  .page-intro-small .img-fluid {
+    max-width: 10000px; } }
+/*********************** End Page Intro ***********************/
+/*********************** Index ***********************/
+.mobile-logo-div {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  z-index: 5; }
+
+#index_carousel .animated {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s; }
+
+.index-cards .animated {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s; }
+
+.page-index .h2-responsive {
+  font-size: 150%; }
+
+.page-index .card .card-text {
+  font-size: 1rem;
+  color: #534d4d; }
+
+.index-card1 {
+  background: #fc6262; }
+
+.index-card2 {
+  background-image: -webkit-linear-gradient(50deg, #fc6262, #ff8c42);
+  background-image: linear-gradient(40deg, #fc6262, #ff8c42); }
+
+.index-card3 {
+  background: #ff8c42; }
+
+.index-why-use {
+  border-top: 1px solid #ff8c42;
+  border-bottom: 1px solid #ff8c42;
+  background-image: -webkit-linear-gradient(50deg, #fff, #ff8c42);
+  background-image: linear-gradient(40deg, #fff, #ff8c42); }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .mobile-logo-div {
+    display: block; } }
+@media (max-width: 767px) and (min-width: 576px) {
+  .mobile-logo-div {
+    display: block; } }
+@media (max-width: 575px) {
+  .mobile-logo-div {
+    display: block; } }
+/*********************** End Index ***********************/
+/*********************** Contact Us ***********************/
+.google-map iframe {
+  height: 500px;
+  width: 100%; }
+
+.contact-locations {
+  margin-bottom: 35px; }
+
+.phone-link {
+  color: #212529; }
+
+.form-error {
+  color: #F44336 !important; }
+
+.form-error-input {
+  border-bottom: 1px solid #F44336 !important;
+  box-shadow: 0 1px 0 0 #F44336 !important; }
+
+.agent-contact-modal .modal-header {
+  background: #215a96; }
+
+/*********************** End Contact Us ***********************/
+/*********************** Our Fees ***********************/
+.our-fees-card-1 {
+  background: #fc6262; }
+
+.our-fees-card-2 {
+  background: #ff8c42; }
+
+.our-fees-cards .animated {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s; }
+
+/*********************** End Our Fees ***********************/
+/*********************** why Use Us ***********************/
+.why-use .animated {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s; }
+
+/*********************** End Why Use Us ***********************/
+/*********************** Our Team ***********************/
+@media (max-width: 575px) {
+  .email_title {
+    padding: 5px; } }
+/*********************** End Our Team ***********************/
+/*********************** Locations ***********************/
+.locations-map {
+  margin-top: 40px; }
+
+.locations-page-intro {
+  display: none; }
+
+.google-view {
+  height: 400px; }
+
+.google-maps-holder {
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  background: #A3CCFF; }
+
+.custom-google-map {
+  position: relative;
+  top: -50px;
+  border: none; }
+
+.google-view-small {
+  height: 200px; }
+
+.locations-card {
+  background-color: #fc6262 !important;
+  color: #fff !important; }
+
+@media (max-width: 575px) {
+  .locations-map {
+    display: none; }
+
+  .locations-page-intro {
+    display: block; } }
+/*********************** End Locations ***********************/
+/*
+@media (max-width: 1199px) and (min-width: 992px) {
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+
+}
+@media (max-width: 767px) and (min-width: 576px) {
+
+}
+@media (max-width: 575px) {
+
+}
+
+
+
+*/
+
+/*# sourceMappingURL=custom.css.map */
