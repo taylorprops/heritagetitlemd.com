@@ -9,7 +9,6 @@ ini_set('display_errors', 'On');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="google-site-verification" content="EFxYxWkV6PXOkt6pDt7Uy2PJmv3LMIfsorU0s-bDGCA" />
 	<meta name="description" content="Real Estate settlement company offering residential and commercial settlements. We will settle at any location, even at your home or office.">
 	<meta name="Keywords" content="Heritage Title, Annapolis, Title, Settlements, Real Estate, Closing, Annapolis, Escrow, Real Estate Title, Real Estate Settlement, Real Estate Closing, Title Insurance">
 	<meta name="robots" content="index, follow">

@@ -43,3 +43,44 @@
 [Wed Feb 13 05:57:54.322998 2019] [php7:error] [pid 3330] [client 78.107.133.44:60168] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat, referer: http://heritagetitlemd.com/wp-login.php
 [Wed Feb 13 16:26:18.231101 2019] [php7:error] [pid 31106] [client 193.106.30.98:42730] script '/var/www/heritagetitlemd.com/rsau.php' not found or unable to stat
 [Wed Feb 13 17:22:28.780837 2019] [core:error] [pid 32642] [client 37.115.184.100:64263] AH00126: Invalid URI in request GET heritagetitlemd.com HTTP/1.0
+[Thu Feb 14 14:06:58.303179 2019] [php7:error] [pid 18941] [client 193.106.30.98:35886] script '/var/www/heritagetitlemd.com/1.php' not found or unable to stat
+[Thu Feb 14 15:27:25.801672 2019] [php7:error] [pid 22761] [client 157.55.39.138:17842] script '/var/www/heritagetitlemd.com/agents.php' not found or unable to stat
+[Thu Feb 14 16:00:14.734599 2019] [core:error] [pid 23679] [client 46.119.114.159:53889] AH00126: Invalid URI in request GET heritagetitlemd.com HTTP/1.0
+[Thu Feb 14 19:44:44.820674 2019] [autoindex:error] [pid 3655] [client 180.76.15.29:22251] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Fri Feb 15 15:25:49.591994 2019] [php7:error] [pid 7283] [client 40.77.167.39:19675] script '/var/www/heritagetitlemd.com/fees.php' not found or unable to stat
+[Sat Feb 16 04:21:16.745118 2019] [php7:error] [pid 23648] [client 157.55.39.92:3652] script '/var/www/heritagetitlemd.com/index_test.php' not found or unable to stat
+[Sat Feb 16 06:32:03.593000 2019] [php7:error] [pid 25226] [client 193.106.30.98:50242] script '/var/www/heritagetitlemd.com/smalls.php' not found or unable to stat
+[Sat Feb 16 10:12:04.538672 2019] [php7:error] [pid 32502] [client 40.77.167.109:8811] script '/var/www/heritagetitlemd.com/agents.php' not found or unable to stat
+[Sat Feb 16 17:07:30.415118 2019] [core:error] [pid 17145] [client 31.184.238.11:59060] AH00126: Invalid URI in request GET heritagetitlemd.com HTTP/1.0
+[Sun Feb 17 00:39:32.829337 2019] [php7:error] [pid 24630] [client 37.187.77.211:32773] script '/var/www/heritagetitlemd.com/oihfoe09fposf.php' not found or unable to stat, referer: heritagetitle.info
+[Sun Feb 17 02:35:05.471603 2019] [autoindex:error] [pid 25462] [client 180.76.15.28:13634] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Sun Feb 17 05:12:35.822129 2019] [php7:error] [pid 28221] [client 62.210.157.133:58316] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat
+[Sun Feb 17 18:59:46.622192 2019] [php7:error] [pid 26114] [client 79.137.34.35:52214] script '/var/www/heritagetitlemd.com/oihfoe09fposf.php' not found or unable to stat, referer: settleatheritage.net
+[Sun Feb 17 19:53:36.479073 2019] [php7:error] [pid 27083] [client 37.187.77.211:46118] script '/var/www/heritagetitlemd.com/oihfoe09fposf.php' not found or unable to stat, referer: heritagetitlemd.com
+[Mon Feb 18 07:29:17.581913 2019] [php7:error] [pid 3540] [client 37.11.161.31:56592] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat
+[Mon Feb 18 13:00:46.762679 2019] [php7:error] [pid 21816] [client 157.55.39.250:5776] script '/var/www/heritagetitlemd.com/fees.php' not found or unable to stat
+[Mon Feb 18 16:11:36.107776 2019] [php7:error] [pid 9427] [client 157.55.39.133:18208] script '/var/www/heritagetitlemd.com/agents.php' not found or unable to stat
+[Tue Feb 19 07:44:35.111088 2019] [php7:error] [pid 25516] [client 14.207.32.254:45216] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat, referer: http://www.google.com.hk
+[Tue Feb 19 07:45:08.344882 2019] [php7:error] [pid 25987] [client 14.207.32.254:46040] script '/var/www/heritagetitlemd.com/xmlrpc.php' not found or unable to stat, referer: http://www.google.com.hk
+[Tue Feb 19 13:10:38.111724 2019] [php7:error] [pid 13202] [client 88.20.130.200:52172] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat
+[Tue Feb 19 13:11:58.638456 2019] [php7:error] [pid 13030] [client 88.20.130.200:52238] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat
+[Tue Feb 19 13:31:24.503468 2019] [php7:error] [pid 14505] [client 185.186.81.50:39986] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat, referer: http://www.google.com.hk
+[Tue Feb 19 13:32:18.725508 2019] [php7:error] [pid 14899] [client 185.186.81.50:40940] script '/var/www/heritagetitlemd.com/xmlrpc.php' not found or unable to stat, referer: http://www.google.com.hk
+[Tue Feb 19 15:43:22.775461 2019] [autoindex:error] [pid 2099] [client 180.76.15.137:59644] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Tue Feb 19 15:54:14.615708 2019] [php7:error] [pid 2717] [client 128.199.75.133:59006] script '/var/www/heritagetitlemd.com/Jwlsjd_baaqifg.php' not found or unable to stat, referer: settleatheritage.net
+[Wed Feb 20 08:29:13.385490 2019] [php7:error] [pid 10293] [client 193.106.30.98:56634] script '/var/www/heritagetitlemd.com/wp-load-5b7a23c0744615b7a23c0744af.php' not found or unable to stat
+[Wed Feb 20 18:33:05.290333 2019] [autoindex:error] [pid 9400] [client 180.76.15.147:26223] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Thu Feb 21 04:37:39.246038 2019] [php7:error] [pid 17963] [client 193.106.30.98:54540] script '/var/www/heritagetitlemd.com/c0nfig.php' not found or unable to stat
+[Thu Feb 21 13:56:24.873619 2019] [php7:error] [pid 25425] [client 66.102.8.113:43965] script '/var/www/heritagetitlemd.com/google28476c93ae8e8f59.php' not found or unable to stat
+[Thu Feb 21 13:56:24.873704 2019] [php7:error] [pid 25234] [client 66.102.8.115:58997] script '/var/www/heritagetitlemd.com/google24e7ff5de4f43ad6.php' not found or unable to stat
+[Fri Feb 22 00:55:02.077700 2019] [php7:error] [pid 21832] [client 78.109.23.2:40671] script '/var/www/heritagetitlemd.com/wp-login.php' not found or unable to stat
+[Fri Feb 22 11:42:02.561731 2019] [php7:error] [pid 6674] [client 85.248.227.164:32727] script '/var/www/heritagetitlemd.com/wp-main.php' not found or unable to stat
+[Fri Feb 22 13:07:07.989956 2019] [php7:error] [pid 11522] [client 207.46.13.97:10692] script '/var/www/heritagetitlemd.com/agents.php' not found or unable to stat
+[Fri Feb 22 13:57:17.639421 2019] [php7:error] [pid 14268] [client 193.106.30.98:56692] script '/var/www/heritagetitlemd.com/wp-cache.php' not found or unable to stat
+[Fri Feb 22 14:33:29.755013 2019] [autoindex:error] [pid 16653] [client 180.76.15.144:11649] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Sat Feb 23 00:44:07.955936 2019] [php7:error] [pid 32410] [client 103.48.80.184:42566] script '/var/www/heritagetitlemd.com/Jwlsjd_baaqifg.php' not found or unable to stat, referer: settleatheritage.com
+[Sat Feb 23 06:19:57.126652 2019] [php7:error] [pid 591] [client 193.106.30.98:48070] script '/var/www/heritagetitlemd.com/sockarp.php' not found or unable to stat
+[Sat Feb 23 15:38:31.236119 2019] [php7:error] [pid 8500] [client 157.55.39.173:3922] script '/var/www/heritagetitlemd.com/fees.php' not found or unable to stat
+[Sun Feb 24 06:37:15.469617 2019] [autoindex:error] [pid 22823] [client 180.76.15.10:54901] AH01276: Cannot serve directory /var/www/heritagetitlemd.com/js/: No matching DirectoryIndex (index.php) found, and server-generated directory index forbidden by Options directive
+[Sun Feb 24 12:29:23.001885 2019] [php7:error] [pid 3738] [client 5.135.143.224:38753] script '/var/www/heritagetitlemd.com/Jwlsjd_baaqifg.php' not found or unable to stat, referer: heritagetitlemd.com
+[Mon Feb 25 01:37:13.654979 2019] [php7:error] [pid 22329] [client 34.76.44.191:60592] script '/var/www/heritagetitlemd.com/install.php' not found or unable to stat
