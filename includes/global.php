@@ -46,12 +46,7 @@ $officesCount = count( $offices );
 
 /* end Functions */
 $staff = array(
-    array(
-        "name" => 'Molly McGettrick',
-        "title" => '',
-        "email" => 'molly@heritagetitlemd.com',
-        "img" => '/img/custom/page-our-team/molly-web.jpg'
-    ),
+
     array(
         "name" => 'Princess George',
         "title" => '',
@@ -63,6 +58,12 @@ $staff = array(
         "title" => '',
         "email" => 'krystyn@heritagetitlemd.com',
         "img" => '/img/custom/page-our-team/krystyn-web.jpg'
+    ),
+    array(
+        "name" => 'Donna Downing',
+        "title" => '',
+        "email" => 'donna@heritagetitlemd.com',
+        "img" => ''
     ),
     array(
         "name" => 'Jacqueline Eucare',
