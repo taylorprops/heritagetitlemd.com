@@ -108,15 +108,14 @@ ini_set('display_errors', 'On');
                         <div class="card-body text-left">
 
                             <p class="card-text">
-                                <strong>Access our Closing Cost App</strong>
+                                <strong>Call us today for:</strong>
                                 <br>
-                                Features:<br>
                                 Title Quotes<br>
                                 Loan Estimate Quotes<br>
                                 Seller Net Sheets<br>
                                 Buyer Estimates<br>
                                 ALTA Settlement Statements<br>
-                                <button type="button" class="btn btn-default z-depth-3 show-quote float-right mt-4">Get Instant Quote</button>
+                                <!--button type="button" class="btn btn-default z-depth-3 show-quote float-right mt-4">Get Instant Quote</button-->
                             </p>
                         </div>
                         <!--/.Card content-->
@@ -198,7 +197,7 @@ ini_set('display_errors', 'On');
                                         <i class="fa fa-check-square-o fa-lg blue-text" aria-hidden="true"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class="font-bold text-left mb-1"><a href="javascript: void(0);" class="show-quote dark-grey-text">Estimated closing costs within one hour</a></h5>
+                                        <h5 class="font-bold text-left mb-1">Estimated closing costs within one hour</h5>
                                     </div>
                                 </div>
                                 <!--Grid row-->

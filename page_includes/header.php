@@ -21,7 +21,7 @@
 Why Use Us?</a></li>
                     <li><a class="navbar-link waves-effect" href="/our-fees.html" rel="canonical"><i class="fa fa-fw fa-usd"></i> Our Fees</a></li>
                     <!--<li><a class="navbar-link waves-effect" href="/order-title.html"><i class="fa fa-fw fa-check"></i> Order Title</a></li>-->
-                    <li><a class="navbar-link waves-effect" href="https://www.titlecapture.com/app/30/heritagetitle" target="_blank"><i class="fa fa-calculator" aria-hidden="true"></i> Instant Quote</a></li>
+                    <!--li><a class="navbar-link waves-effect" href="https://www.titlecapture.com/app/30/heritagetitle" target="_blank"><i class="fa fa-calculator" aria-hidden="true"></i> Instant Quote</a></li-->
 
                     <li><a class="navbar-link waves-effect" href="/settlement.html" rel="canonical"><i class="fa fa-fw fa-info"></i> Settlement Info</a></li>
                     <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-phone"></i> Contact Us<i class="fa fa-angle-down rotate-icon"></i></a>
@@ -40,7 +40,7 @@ Why Use Us?</a></li>
             <!--Social-->
             <li>
                 <div class="d-flex justify-content-between nav-social">
-                    <a class="btn-floating btn-sm peach-gradient nav-social ml-5" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn-floating btn-sm peach-gradient nav-social ml-5" href="https://www.linkedin.com/in/heritage-title-inc-37a00a92/" target="_blank"><i class="fa fa-linkedin"></i></a>
                     <a class="btn-floating btn-sm blue-gradient nav-social mr-5" href="https://www.facebook.com/Heritage-Title-Ltd-189929308173692/" target="_blank"><i class="fa fa-facebook"></i></a>
                 </div>
             </li>

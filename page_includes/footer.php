@@ -42,9 +42,9 @@
                 <!--Social buttons-->
                 <div class="social-section mt-2 ">
                     <!--Facebook-->
-                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
-                    <!--Twitter-->
-                    <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-linkedin"></i></a>
+                    <a type="button" class="btn-floating btn-small btn-fb" href="https://www.facebook.com/Heritage-Title-Ltd-189929308173692/"><i class="fa fa-facebook"></i></a>
+                    <!--Linkedin-->
+                    <a type="button" class="btn-floating btn-small btn-tw" href="https://www.linkedin.com/in/heritage-title-inc-37a00a92/"><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
 

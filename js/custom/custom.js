@@ -172,4 +172,4 @@ function format_phone(obj) {
 	}
 }
 
-!function(){function e(){var a=c.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://www.titlecapture.com/tcw/tc-widget.php",a.id="tc_widget_js";var b=c.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}var a=window,c=(a.tclp_Option,document),d=function(){d.c(arguments)};d.q={companyId:605},a.tclp_Option=d,a.attachEvent?a.attachEvent("onload",e):a.addEventListener("load",e,!1)}();
+// !function(){function e(){var a=c.createElement("script");a.type="text/javascript",a.async=!0,a.src="https://www.titlecapture.com/tcw/tc-widget.php",a.id="tc_widget_js";var b=c.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}var a=window,c=(a.tclp_Option,document),d=function(){d.c(arguments)};d.q={companyId:605},a.tclp_Option=d,a.attachEvent?a.attachEvent("onload",e):a.addEventListener("load",e,!1)}();

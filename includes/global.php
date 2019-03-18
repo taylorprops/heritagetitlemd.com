@@ -25,7 +25,7 @@ function sendMail($priority, $to, $from, $subject, $body) {
 	$mail->Host = 'mail.tpmailserver.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'mailer@mail.tpmailserver.com';
-	$mail->Password = 'T0m@hawkT@ters';
+	$mail->Password = '7Zz7+DFtbX@r37dpb&%86';
 	$mail->SMTPSecure = '';
 	$mail->Port = 587;
 
