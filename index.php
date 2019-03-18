@@ -197,7 +197,7 @@ ini_set('display_errors', 'On');
                                         <i class="fa fa-check-square-o fa-lg blue-text" aria-hidden="true"></i>
                                     </div>
                                     <div class="col-10">
-                                        <h5 class="font-bold text-left mb-1">Estimated closing costs within one hour</h5>
+                                        <h5 class="font-bold text-left mb-1 dark-grey-text">Estimated closing costs within one hour</h5>
                                     </div>
                                 </div>
                                 <!--Grid row-->
